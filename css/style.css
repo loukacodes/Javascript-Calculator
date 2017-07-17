@@ -1,0 +1,125 @@
+
+body {
+  background-color: #111;
+  font-family: 'Abel', sans-serif;
+}
+
+h1, footer {
+  text-align: center;
+  color: #777;
+  margin: 10px auto;
+}
+
+footer a {
+  text-decoration: none;
+  color: #06517F;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #f93c00;
+}
+.box {
+  height: 3em;
+}
+
+#flash {
+  color: #06517F;
+  text-align: center;
+  font-size: 3em;
+  text-shadow: 2px 2px 18px #06727f;
+}
+
+.wrapper {
+  width: 320px;
+  height: 440px;
+  border: 2px solid #111;
+  border-radius: 15px;
+  display: block;
+  margin: 20px auto;
+  background-color: #fff;
+}
+
+.display {
+  height: 140px;
+  width: 280px;
+  border-bottom: 1px solid #ccc;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+input:focus {
+  outline: none;
+}
+
+#result {
+  font-size: 5em;
+  font-weight: bold;
+  height: 90px;
+}
+
+#calculating {
+  font-size: 1.1em;
+}
+
+#btn-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 320px;
+  margin: auto
+}
+
+
+.btn {
+  font-size: 1.6em;
+  margin-top: 10px;
+  width: 78px;
+  height: 43px;
+  text-align: center;
+  z-index:3;
+  border: none;
+  font-family: 'Abel', sans-serif;
+}
+
+.btn:active {
+  font-weight: bold;
+  box-shadow: inset 1px 1px 2px #aaa;
+}
+
+#num0 {
+  flex-grow: 0.35;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+
+#divide, #subtract, #multiply, #add {
+  color: #06517F;
+  text-shadow: 1px 1px 2px #06517F;
+}
+
+#equal {
+  width:43px;
+  border-radius: 50%;
+  background-color: #06517F;
+  color: #fff;
+  box-shadow: 2px 2px 2px #ccc;
+  position: relative;
+  left: 18.5px;
+}
+
+#divide:hover, #subtract:hover, #multiply:hover, #add:hover {
+  color: #fff;
+  background-color: #06517F;
+}
+
+#equal:hover {
+  background-color: rgba(6,81,127, .7);
+}
