@@ -1,3 +1,4 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/trangtran/pen/PjzZyQ.
+#Javascript calculator
 
- Javascript Calculator, one of freecodecamp front-end development projects.
+Simple style and function
+One of freecodecamp front-end development projects
