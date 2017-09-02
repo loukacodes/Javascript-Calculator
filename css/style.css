@@ -99,6 +99,9 @@ input:focus {
   background-color: #ccc;
 }
 
+input {
+  background: none;
+}
 
 #divide, #subtract, #multiply, #add {
   color: #06517F;
